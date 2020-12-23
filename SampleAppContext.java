@@ -23,4 +23,6 @@ public interface SampleAppContext {
     String getData(String key);
 
     JSONObject getConfigFromFile(String configAssetName, String configRootKey);
+
+String getString();
 }
